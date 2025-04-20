@@ -64,24 +64,24 @@ a {
 
 /* buttons */
 .btn-primary {
-    background-color: #0e37cc !important;
-    border-color: #0e37cc !important;
+    background-color: #ea7317 !important;
+    border-color: #ea7317 !important;
 }
 
 .btn-primary:hover {
-    background-color: #6b0504 !important;
-    border-color: #6b0504;
+    background-color: #ea7317 !important;
+    border-color: #ea7317;
     color: #fff !important;
 }
 
 .btn-outline-dark {
-    color: #C35B0C !important;
-    border-color: #C35B0C !important;
+    color: #ea7317 !important;
+    border-color: #ea7317 !important;
 }
 
 .btn-outline-dark:hover {
-    background-color: #C35B0C !important;
-    border-color: #C35B0C;
+    background-color: #ea7317 !important;
+    border-color: #ea7317;
     color: #fff !important;
 }
 
