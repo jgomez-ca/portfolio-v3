@@ -3,6 +3,7 @@
 
 List of colours used in the website:
     Office green: #117B1B
+    Pupmkin:        #ea7317
     Blood Red:      #6b0504
     Persian blue:   #0e37cc
 
@@ -28,6 +29,8 @@ html {
     -ms-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in Windows Phone */
 }
 
+
+
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 1 rem;
@@ -45,7 +48,7 @@ a {
 }
 
 /* HEAD Styles  */
-.text-primary {
+.text-primary, .text-project {
     color: #1b264f !important;
 }
 
@@ -53,7 +56,7 @@ a {
 
 /* little banner */
 .text-uppercase {
-    background-color: #117B1B;
+    background-color: #ea7317;
     padding: 1rem;
     border-radius: 10px;
 
@@ -72,13 +75,13 @@ a {
 }
 
 .btn-outline-dark {
-    color: #0e37cc !important;
-    border-color: #0e37cc !important;
+    color: #C35B0C !important;
+    border-color: #C35B0C !important;
 }
 
 .btn-outline-dark:hover {
-    background-color: #6b0504 !important;
-    border-color: #6b0504;
+    background-color: #C35B0C !important;
+    border-color: #C35B0C;
     color: #fff !important;
 }
 
@@ -102,25 +105,25 @@ a {
   }
 
 .bg-profile {
-    background: #117B1B;
     background: linear-gradient(30deg, #0e37cc 0%, #6b0504 100%);
     border-radius: 5rem;
     opacity: 0.85;
 }
 /* Resume Icons */
-.fa-solid, .fa-thin {
-    color: #6b0504;
+.fa-solid {
+    color: #C35B0C;
     font-size: 2rem;
 }
 
-/* Resume Icons hover */
-.text-project {
-    color: #0e37cc;
-    transition: all 0.5s ease-in-out;
+.title-project {
+    color: #4A5859;
 }
+
 
 /* Project pic opacity*/
 .img-projects{
+    max-width: 100%;
+    height: auto;
     opacity: 0.8;
     transition: all 0.5s ease-in-out;
 }
@@ -144,6 +147,6 @@ a {
 
 /* Socials Colours  */
 .fa-brands{
-    color: #117B1B;
+    color: #C35B0C;
 }
 
