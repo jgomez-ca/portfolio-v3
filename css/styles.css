@@ -69,8 +69,8 @@ a {
 }
 
 .btn-primary:hover {
-    background-color: #ea7317 !important;
-    border-color: #ea7317;
+    background-color: #6b0504 !important;
+    border-color: #6b0504;
     color: #fff !important;
 }
 
@@ -111,7 +111,7 @@ a {
 }
 /* Resume Icons */
 .fa-solid {
-    color: #C35B0C;
+    color: #ea7317;
     font-size: 2rem;
 }
 
@@ -147,6 +147,6 @@ a {
 
 /* Socials Colours  */
 .fa-brands{
-    color: #C35B0C;
+    color: #ea7317;
 }
 
