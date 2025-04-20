@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/*!
+
+List of colours used in the website:
+    Office green: #117B1B
+    Blood Red:      #6b0504
+    Persian blue:   #0e37cc
+
+Other colours:
+    Green - Dark: 	#808101
+    pigment Green: 	#139a43
+    cal poly green: #04550c
+----
+    Outer Space:    #4A5859
+    Jet:            #302b27 too dark
+----
+    Marian Blue:    #274690
+    Space Cadet:    #1b264f
+----
+    Red - Dark:		#892728
+    Brown:          #A3320B
+*/ 
+
+/* General Styles */
+html {  
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS */
+    -ms-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in Windows Phone */
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1 rem;
+  line-height: 1.5;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0;
+  color: #0e37cc;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  /*transition: all 0.75s ease-in-out; */
+}
+
+/* HEAD Styles  */
+.text-primary {
+    color: #1b264f !important;
+}
+
+/* BODY Styles  */
+
+/* little banner */
+.text-uppercase {
+    background-color: #117B1B;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+/* buttons */
+.btn-primary {
+    background-color: #0e37cc !important;
+    border-color: #0e37cc !important;
+}
+
+.btn-primary:hover {
+    background-color: #6b0504 !important;
+    border-color: #6b0504;
+    color: #fff !important;
+}
+
+.btn-outline-dark {
+    color: #0e37cc !important;
+    border-color: #0e37cc !important;
+}
+
+.btn-outline-dark:hover {
+    background-color: #6b0504 !important;
+    border-color: #6b0504;
+    color: #fff !important;
+}
+
+/* profile image */
+.profile {
+    position: relative;
+    height: 50rem;
+    width: 50rem;
+    margin-top: 2rem;
+    max-height: 40rem;
+    max-width: 40rem;
+  }
+
+.profile .profile-img {
+    height: 50rem;
+    max-height: 40rem;
+    position: absolute;
+    bottom: 0;
+    left: 65%;
+    transform: translateX(-65%);
+  }
+
+.bg-profile {
+    background: #117B1B;
+    background: linear-gradient(30deg, #0e37cc 0%, #6b0504 100%);
+    border-radius: 5rem;
+    opacity: 0.85;
+}
+/* Resume Icons */
+.fa-solid, .fa-thin {
+    color: #6b0504;
+    font-size: 2rem;
+}
+
+/* Resume Icons hover */
+.text-project {
+    color: #0e37cc;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Project pic opacity*/
+.img-projects{
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Let's build it together! */
+.bg-doit {
+    background: #117B1B;
+   /* background: linear-gradient(30deg, #12661b 0%, #13b14a 100%); */
+    background: linear-gradient(30deg, #0e37cc 0%, #6b0504 100%);
+
+}
+
+/* FOOTER Styles  */
+.about-foot {
+    color: #274690;
+}
+
+.text-muted {
+    color: #302b27 !important;
+}
+
+/* Socials Colours  */
+.fa-brands{
+    color: #117B1B;
+}
+
